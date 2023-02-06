@@ -5,7 +5,7 @@ def index(request):
     `index` view function, renders the `index.html` template.
     """
     context = {
-            "title": "My own personal Django Example!",
+            "title": "animated-palm-tree",
     }
     return render(
         request,

@@ -18,6 +18,18 @@
             <p class="small">
                 Edit <code>config/templates/index.html</code> and see changes live!
             </p>
+            <p>
+                {% comment %} `request.user` is `AnonymousUser`, as expected. {% endcomment %}
+                {{ request.user }}
+            </p>
+            <p>
+                <a
+                    href="https://github.com/brucestull/animated-palm-tree"
+                    target="_blank"
+                    >
+                    <code>animated-palm-tree</code> Repository
+                </a>
+            </p>
         </header>
     </div>
 </body>
