@@ -20,16 +20,23 @@
             </p>
             <p>
                 {% comment %} `request.user` is `AnonymousUser`, as expected. {% endcomment %}
-                {{ request.user }}
+                Greetings, {{ request.user }}!
             </p>
-            <p>
+            <nav>
                 <a
                     href="https://github.com/brucestull/animated-palm-tree"
                     target="_blank"
                     >
                     <code>animated-palm-tree</code> Repository
                 </a>
-            </p>
+                <br>
+                <a
+                    href="https://docs.github.com/en/codespaces/getting-started/quickstart"
+                    target="_blank"
+                    >
+                    Quickstart for GitHub Codespaces
+                </a>
+            </nav>
         </header>
     </div>
 </body>
