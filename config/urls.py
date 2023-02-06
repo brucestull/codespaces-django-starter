@@ -20,6 +20,9 @@ from config.core import views as core_views
 
 urlpatterns = [
     path("", core_views.index),
+
+    path('admin/doc/', include('django.contrib.admindocs.urls')),
     path("admin/", admin.site.urls),
+    
     path("__reload__/", include("django_browser_reload.urls")),
 ]
