@@ -6,6 +6,7 @@
 
 * How to get the CodeSpaces environment variables?
   * `printenv`
+* What is involved in deploying this to Heroku?
 
 ### Concepts
 
