@@ -32,4 +32,4 @@
   ```
 
 * Seems like I might need to rebuild CodeSpace after updating the `requirements.txt` file:
-  * [Performing a full rebuild](https://docs.github.com/en/codespaces/codespaces-reference/performing-a-full-rebuild-of-a-container#performing-a-full-rebuild)![image](https://user-images.githubusercontent.com/47562501/216862578-c8450af0-7f80-4206-acca-8966e4f27138.png)
+  * [Performing a full rebuild](https://docs.github.com/en/codespaces/codespaces-reference/performing-a-full-rebuild-of-a-container#performing-a-full-rebuild)
