@@ -1,4 +1,6 @@
-# Notes for `animated-palm-tree`
+# Codespaces Django Starter
+
+* Notes for `animated-palm-tree` aka `codespaces-django-starter`
 
 ## Resources
 
@@ -31,5 +33,5 @@
   In [3]:
   ```
 
-* Seems like I might need to rebuild CodeSpace after updating the `requirements.txt` file:
+* Seems like I might need to rebuild CodeSpace after updating the `requirements.txt` or `.devcontainer/devcontainer.json`:
   * [Performing a full rebuild](https://docs.github.com/en/codespaces/codespaces-reference/performing-a-full-rebuild-of-a-container#performing-a-full-rebuild)
