@@ -5,7 +5,7 @@ def index(request):
     `index` view function, renders the `index.html` template.
     """
     context = {
-            "title": "animated-palm-tree",
+            "title": "codespaces-django-starter",
     }
     return render(
         request,
