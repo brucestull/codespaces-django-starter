@@ -12,6 +12,8 @@
   "customizations": {
     "codespaces": {
       "openFiles": [
+        "config/urls.py",
+        "config/views.py",
         "config/templates/index.html"
       ]
     },
