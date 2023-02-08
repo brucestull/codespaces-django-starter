@@ -3,6 +3,8 @@
 {% block title %}Home{% endblock %}
 
 {% block content %}
+    <a href={% url 'core-views-index' %}>Core Index</a>
+    <br>
     {% if user.is_authenticated %}
         Greetings, {{ user.username }}!
         <p><a href="{% url 'logout' %}">Log Out</a></p>
