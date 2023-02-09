@@ -1,0 +1,63 @@
+{% load django_browser_reload %}
+{% load static %}
+
+<!doctype html>
+<html>
+
+<head>
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{% static 'main.css' %}">
+
+<body>
+    <div class="App">
+        <header class="App-header">
+            <img src="{% static 'Octocat.png' %}" class="App-logo" alt="logo" />
+            <p>
+                GitHub Codespaces <span class="heart">♥️</span> Django
+            </p>
+            <p class="small">
+                Edit <code>config/templates/index.html</code> and see changes live!
+            </p>
+            <p>
+                {% comment %} `request.user` is `AnonymousUser`, as expected. {% endcomment %}
+                Greetings, {{ request.user }}!
+            </p>
+            <nav>
+                <a
+                    href={% url 'home' %}
+                    >
+                    Home
+                </a>
+                <br>
+                <a
+                    href="https://github.com/github/codespaces-django"
+                    target="_blank"
+                    >
+                    <code>github/codespaces-django</code> Repository
+                </a>
+                <br>
+                <a
+                    href="https://github.com/brucestull/codespaces-django-starter"
+                    target="_blank"
+                    >
+                    <code>brucestull/codespaces-django-starter</code> Repository
+                </a>
+                <br>
+                <a
+                    href="https://docs.github.com/en/codespaces/getting-started/quickstart"
+                    target="_blank"
+                    >
+                    Quickstart for GitHub Codespaces
+                </a>
+                <br>
+                <a
+                    href={% url 'admin:index' %}
+                    >
+                    Django Admin
+                </a>
+            </nav>
+        </header>
+    </div>
+</body>
+
+</html>
